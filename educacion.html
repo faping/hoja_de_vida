@@ -32,7 +32,33 @@
 			<th>Bogotá</th>
 			<th>Si</th>
 		</tr>
-	</table>
+	</table><br>
+	<form name="Estudios">
+		<fieldset>
+			<legend><h2>Agregar estudios</h2></legend>
+			<label for= ”año”>Año:</label>
+			<select>
+				<option>2011</option>
+				<option>2012</option>
+				<option>2013</option>
+				<option>2014</option>
+				<option>2015</option>
+				<option>2016</option>
+				<option>2017</option>
+				<option>2018</option>
+				<option>2019</option>
+				<option>2020</option>
+			</select><br><br>
+			<label for="institucion">Institución:</label>
+			<input type="text" required placeholder="Ej: Universidad Colombia"><br><br>
+			<label for="lugar">Lugar:</label><br>
+			<textarea name="lugar" rows="5" cols="40" required placeholder="Poner información del lugar de estudio"></textarea>
+			<label for="culminacion">¿Culminó?:</label>
+			<input type="radio" name="si" required>Si
+			<input type="radio" name="no" required>No<br>
+			<input type="submit" name="enviar" value="Enviar">
+		</fieldset>
+	</form><br>
 </body>
 <footer>
 @ Todos los derechos reservados
